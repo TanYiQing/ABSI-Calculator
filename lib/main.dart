@@ -276,7 +276,7 @@ class _MyAppState extends State<MyApp> {
                     width: 350,
                   ),
                   SizedBox(height: 10),
-                  Divider(thickness:5),
+                  Divider(thickness:2),
                   SizedBox(height: 10),
                   Row(
                     children: [
