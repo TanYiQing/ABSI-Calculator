@@ -356,6 +356,7 @@ class _MyAppState extends State<MyApp> {
 
       //ABSI Calculator
       absi = waist / (pow(bmi, 2 / 3) * pow(height, 1 / 2));
+      absi=double.parse(absi.toStringAsFixed(5));
       absiz = (absi - absiMean) / absiSD;
 
       if (absiz < -0.868)
